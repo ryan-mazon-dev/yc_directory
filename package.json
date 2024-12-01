@@ -9,6 +9,11 @@
     "lint": "next lint",
     "format": "prettier --write ."
   },
+  "packageManager": "npm@10.9.0",
+  "overrides": {
+    "react": "$react",
+    "react-dom": "$react-dom"
+  },
   "dependencies": {
     "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
